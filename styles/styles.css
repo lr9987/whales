@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,500&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+}
+p {
+    margin: 0;
+    width:auto;
+}
+h1 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+main {
+    display: flex;
+    font-family: "IBM Plex Mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: larger;
+    padding:2rem;
+    gap: 3rem;
+    align-items: start;
+    margin-right: 0%;
+}
+figure {
+    align-self: center;
+    display: block;
+    margin: 0;
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+}
+.head {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: italic;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+    border-bottom: 2px dotted;
+}
+.banner {
+    background-image: url("../static/banner.jpg");
+    height: 25%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.links {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-size: x-large;
+    display: flex;
+    gap:0.5rem;
+    flex-direction: column;
+    height: 30%;
+    width: auto;
+    padding-left: 0;
+}
+.maintext {
+    width: 60%;
+    border-right:1px solid;
+    padding-right: 3rem;
+    height: 30%;
+}
+
